@@ -1,7 +1,9 @@
 # Tri-umph_Myntra_Hackerramp
 Tri-umph_Myntra_Hackerramp- Swara,Shreya & Siddhi 
 All the codes used in video can be found here!
-Object Detection with Images (Sketches and Photos of People Wearing) 🖼️👗
+
+
+1. Object Detection with Images (Sketches and Photos of People Wearing) 🖼️👗-Shreya
 
 This repository contains code and models for detecting objects in images, focusing on two types of input:
 
@@ -11,7 +13,7 @@ This repository contains code and models for detecting objects in images, focusi
     Photos of People Wearing Objects:
         Identify objects worn by individuals in photos, ideal for fashion applications.
 
-Myntra Search Results + Chatbot Integration 🛍️🤖
+2. Myntra Search Results + Chatbot Integration 🛍️🤖- Siddhi
 
 Integrates Myntra's search with a chatbot for enhanced user experience:
 
@@ -21,7 +23,7 @@ Integrates Myntra's search with a chatbot for enhanced user experience:
     Chatbot Integration:
         Assists users in refining searches and provides product recommendations.
 
-UI/UX Design for Proposed Features ✨
+3.UI/UX Design for Proposed Features ✨- Swara
 
 Includes UI/UX designs for:
 
