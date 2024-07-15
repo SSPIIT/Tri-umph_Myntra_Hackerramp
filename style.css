@@ -1,0 +1,156 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  /* justify-content: space-between; */
+  min-height: 50vh;
+  background: #ab0286;
+}
+
+h1 {
+  color: rgb(244, 173, 41);
+}
+
+.sketchboard {
+  /* margin: 0px; */
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* min-height: 100vh; */
+  max-width: 1200px;
+  min-height: 480px;
+}
+
+.container {
+  /* background-color: antiquewhite; */
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  padding: 0px;
+  max-width: 1050px;
+  margin: 0px;
+}
+
+section {
+  background: #fff;
+  border-radius: 7px;
+  padding: 15px 22px;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.row .title {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.icon {
+  width: 35px;
+}
+
+.options {
+  list-style: none;
+  margin: 0;
+  display: none;
+  flex-wrap: wrap;
+}
+
+.options.active {
+  display: flex;
+  justify-content: space-between;
+}
+
+.option.tool {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.option.tool img {
+  width: 30px;
+}
+
+.option.tool:hover img,
+.option.tool.active img {
+  filter: invert(17%) sepia(90%) saturate(3000%) hue-rotate(900deg) brightness(100%) contrast(100%);
+}
+
+.option #fill-color {
+  cursor: pointer;
+  height: 14px;
+  width: 14px;
+}
+
+#fill-color:checked ~ label {
+  color: #ab0286;
+}
+
+.option #size-slider {
+  width: 100%;
+  height: 5px;
+  margin-top: 10px;
+}
+
+#color-picker {
+  cursor: pointer;
+  height: 0px;
+  width: 0px;
+  border: none;
+  padding: 0;
+}
+
+.buttons button {
+  /* width: 100%; */
+  /* color: #fff; */
+  border: none;
+  outline: none;
+  /* padding: 11px 0; */
+  /* font-size: 0.9rem; */
+  /* margin-bottom: 13px; */
+  background: none;
+  /* border-radius: 4px; */
+  cursor: pointer;
+}
+
+/* .buttons .clear-canvas {
+  color: #6C757D;
+  border: 1px solid #6C757D;
+  transition: all 0.3s ease;
+} */
+
+/* .clear-canvas:hover {
+  color: #fff;
+  background: #6C757D;
+} */
+
+/* .buttons .save-img {
+  background: #ab0286;
+  border: 1px solid #ab0286;
+} */
+
+.drawing-board {
+  flex: 1;
+  overflow: hidden;
+}
+
+.drawing-board canvas {
+  width: 100%;
+  height: 100%;
+}
