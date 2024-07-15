@@ -8,7 +8,7 @@ All the codes used in video can be found here!
 This repository contains code and models for detecting objects in images, focusing on two types of input:
 
     Sketches of Objects:
-        Detect objects based on sketches using advanced computer vision models.
+        generate image based on sketches using generativeAI.
 
     Photos of People Wearing Objects:
         Identify objects worn by individuals in photos, ideal for fashion applications.
